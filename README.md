@@ -1,4 +1,4 @@
-# Scala Play [giter8](https://github.com/foundweekends/giter8) Template.
+# Scala Play React Redux [giter8](https://github.com/foundweekends/giter8) Template.
 
 This template provides a project setup for: 
  - A compilable and runnable compile time DI Play project
@@ -7,13 +7,16 @@ This template provides a project setup for:
  - Code formatting with Scalariform
  - An example test for the healthcheck endpoint
  - A working logback.xml file integrated with the application.
+ - React Integration
+ - Redux Integration
+ - Frontend build template and scaffolding including an opinionated set of js dependencies.
 
 To use, ensure you have SBT 0.13.13 or higher, or G8
 
 Then:
 
 ```
-sbt new LA-Taylor-guardian/scala-play.g8
+sbt new LA-Taylor-guardian/scala-play-react-redux.g8
 ```
 
 You will be asked to fill out some properties required for correctly building your project.
