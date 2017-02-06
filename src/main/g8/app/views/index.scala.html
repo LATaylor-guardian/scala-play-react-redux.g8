@@ -1,0 +1,15 @@
+@(title: String)
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>@title</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("build/main.css")">
+    </head>
+
+    <body>
+        <div class="wrap" id="react-mount"></div>
+        <script src="@routes.Assets.versioned("build/app.js")" type="application/javascript"></script>
+    </body>
+</html>
