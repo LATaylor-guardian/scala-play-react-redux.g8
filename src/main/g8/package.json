@@ -4,8 +4,8 @@
   "description": "$project_description$",
   "main": "public/index.html",
   "scripts": {
-    "build-dev": "webpack ./public/js/app.js ./public/build/app.js --config ./conf/webpack.conf.js --watch",
-    "build": "webpack -p ./public/js/app.js ./public/build/app.js --config ./conf/webpack.conf.js",
+    "build-dev": "webpack ./public/js/app.js ./public/build/app.js --config ./public/build_config/webpack.conf.js --watch",
+    "build": "webpack -p ./public/js/app.js ./public/build/app.js --config ./public/build_config/webpack.conf.js",
     "test": "jest"
   },
   "repository": {
