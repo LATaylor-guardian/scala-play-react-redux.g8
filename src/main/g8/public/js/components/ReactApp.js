@@ -6,7 +6,6 @@ export default class ReactApp extends React.Component {
 
     return (
       <div className="page">
-      /* <Header /> */
       
       <main className="container" role="main">
         <section>
