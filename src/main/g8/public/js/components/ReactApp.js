@@ -11,7 +11,7 @@ export default class ReactApp extends React.Component {
       
       <main className="container" role="main">
         <section>
-          <h2>$name$</h2>
+          <h2>Hello World</h2>
         </section>
       </main>
 
